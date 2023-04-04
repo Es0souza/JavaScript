@@ -16,6 +16,15 @@
       <nav class="menu" data-menu="suave">
         <ul>
           <li><a href="#animais">Animais</a></li>
+          <li data-dropdown>
+            <a href="sobre.html">Sobre</a>
+            <ul class="dropdown__menu">
+              <li><a href="empresa.html">A empresa</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="socios.html">Sócios</a></li>
+              <li><a href="investidores.html">Investidores</a></li>
+            </ul>
+          </li>
           <li><a href="#faq">Faq</a></li>
           <li><a href="#contato">Contato</a></li>
           <li><a data-modal="abrir" href="login.html" target="_blank">Login →</a></li>
@@ -197,9 +206,9 @@
         <button data-modal="fechar" class="modal__fechar">X</button>
         <form action="">
           <label for="email">Email</label>
-          <input type="text" for="email" id="email" />
+          <input type="text" for="email" id="email" placeholder="email@email.com" />
           <label for="senha">Senha</label>
-          <input type="password" for="senha" id="senha" />
+          <input type="password" for="senha" id="senha" placeholder="**********" />
           <button type="submit">Entrar</button>
         </form>
       </div>
