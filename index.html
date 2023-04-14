@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,7 +14,8 @@
   <body>
     <div class="grid__container">
       <nav class="menu" data-menu="suave">
-        <ul>
+        <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+        <ul data-menu="list" id="menu">
           <li><a href="#animais">Animais</a></li>
           <li data-dropdown>
             <a href="sobre.html">Sobre</a>
@@ -217,3 +218,4 @@
     <script type="module" src="js/script.js"></script>
   </body>
 </html>
+
