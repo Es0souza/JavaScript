@@ -323,3 +323,33 @@ body {
 }
 
 /* end of scrolling */
+
+/* init of Funcionalidade (days and hours) */
+
+[data-semana]::after {
+   display: inline-block;
+   margin-left: 10px;
+   font-weight: 500;
+   font-size: 18px;
+   text-transform: capitalize;
+   font-style: italic;
+   border-radius: 5pxs;
+   padding: 2px 4px;
+}
+
+[data-semana].aberto::after {
+   color: green;
+   background-color: aquamarine;
+   border: 3px dashed #3FA;
+   content: 'Aberto';
+}
+
+[data-semana].fechado::after {
+   color: red;
+   background-color: darkred;
+   border: 3px dashed #ff0000;
+   content: 'Fechado';
+   text-decoration: line-through;
+}
+
+/* end of Funcionalidade (days and hours) */
