@@ -353,3 +353,19 @@ body {
 }
 
 /* end of Funcionalidade (days and hours) */
+
+/* init of btc json api (days and hours) */
+
+.btc-preco{
+   padding: .2rem .5rem;
+   background-color: rgb(156, 118, 243);
+   border-radius: 6px;
+   border-style: double;
+   border-color: rgb(218, 147, 42);
+   border-width: 6px;
+   color: #f39924;
+   font-weight: 500;
+   font-style: italic;
+   font-size: 1.125rem;
+}
+

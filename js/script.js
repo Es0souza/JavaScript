@@ -8,6 +8,7 @@ import initDropdownMenu from "./modules/dropdown-menu.js";
 import initMenuMobile from "./modules/menu-mobile.js";
 import initFuncionalidade from "./modules/funcionalidade.js";
 import initFetchAnimais from "./modules/fetch-animais.js";
+import initFetchBtc from "./modules/fetch-btc.js";
 
 // Inicialização das Funções
 
@@ -21,4 +22,5 @@ initDropdownMenu();
 initMenuMobile();
 initFuncionalidade();
 initFetchAnimais();
+initFetchBtc();
 
